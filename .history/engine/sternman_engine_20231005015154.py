@@ -3,7 +3,7 @@ from abc import ABC
 from car import Car
 
 
-class SternmanEngine(Car, ABC):
+class SternmanEngine(Car):
     def __init__(self, last_service_date, warning_light_is_on):
         super().__init__(last_service_date)
         self.warning_light_is_on = warning_light_is_on
