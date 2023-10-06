@@ -6,5 +6,4 @@ class Battery():
     #this is the strategy interface
     def needs_service(self, *kwargs):
         #instead of return super, i can just pass
-        #return super().baz(**kwargs)
-        pass
+        return super().baz(**kwargs)

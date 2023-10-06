@@ -1,7 +1,5 @@
 from abc import ABC
-import sys
 
-sys.path.insert(0, '/Users/gautamgrg/Documents/forage-lyft-starter-repo')
 from car import Car
 from engine.engine import Engine
 

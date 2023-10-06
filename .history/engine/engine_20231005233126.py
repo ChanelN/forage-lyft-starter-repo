@@ -5,5 +5,4 @@ from abc import ABC, abstractmethod
 class Engine(ABC):
     #this is the strategy interface
     def needs_service(self, *kwargs):
-        #return super().baz(**kwargs)
-        pass
+        return super().baz(**kwargs)
