@@ -1,6 +1,6 @@
 from abc import ABC
 from battery import Battery
-from dateutil.relativedelta import *
+from dateutil import relativedelta
 
 #Implements Battery
 # these are supposed to inherit from Battery not Car-  self.last_service_date = last_service_date

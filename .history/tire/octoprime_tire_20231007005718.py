@@ -1,0 +1,1 @@
+# serviced only when the sum of all values in the tire wear array is greater than or equal to 3

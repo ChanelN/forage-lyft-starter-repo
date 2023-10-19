@@ -6,7 +6,6 @@ from engine.capulet_engine import CapuletEngine
 from engine.sternman_engine import SternmanEngine
 from engine.willoughby_engine import WilloughbyEngine
 
-
 #testing only concrete methods
 class TestCapulet(unittest.TestCase):
     def capulet_should_be_serviced_1(self):
